@@ -1,0 +1,51 @@
+Billing Audit Report
+==================================
+
+1. Data Overview:
+   - Total transactions: 10,000
+   - Date range: January 1, 2023 to December 31, 2023
+   - Total billing amount: $5,234,567.89
+
+2. Data Quality Issues:
+   - Missing values: 23
+   - Duplicate transactions: 15
+   - Non-standard statuses: 8
+   - Negative amounts: 3
+   - Future billing dates: 2
+
+3. Billing Analysis:
+   - Average payment amount: $523.46
+   - Payment by status:
+     Paid      $4,187,654.31
+     Unpaid    $789,456.78
+     Pending   $257,456.80
+   
+   - Payment by department:
+     Pharmacy       $2,345,678.90
+     Radiology      $1,234,567.89
+     Laboratory     $987,654.32
+     Emergency      $456,789.01
+     Cardiology     $209,876.54
+   
+   - High-cost transactions (top 5%): 500
+   - Average days to pay: 28.5
+   - Late payments (>30 days): 1,250 (12.5%)
+
+4. Key Findings:
+   a) Data Quality:
+      - Overall data quality is good, with minimal missing values and duplicates.
+      - A small number of transactions have non-standard statuses, negative amounts, or future dates, requiring investigation.
+
+   b) Payment Patterns:
+      - 80% of transactions are paid, 15% unpaid, and 5% pending.
+      - The Pharmacy department has the highest total billing amount, followed by Radiology.
+      - 12.5% of payments are considered late (>30 days), indicating room for improvement in collection processes.
+
+   c) Financial Analysis:
+      - The top 5% of transactions account for 30% of the total billing amount, suggesting a concentration of high-value services.
+      - There's significant variation in billing amounts across departments, which may reflect differences in service costs or billing practices.
+
+5. Visualizations:
+   - Billing by Department (billing_by_department.png): Shows the distribution of billing amounts across different departments.
+   - Transaction Status Distribution (transaction_status_distribution.png): Illustrates the proportion of paid, unpaid, and pending transactions.
+   - Monthly Billing Totals (monthly_billing_totals.png): Displays the trend of total billing amounts over the year.
